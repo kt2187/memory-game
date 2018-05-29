@@ -1,14 +1,16 @@
 # Udacity Memory Game - FEND #
 
-## What is this project about?
+## Game Description
 
-This is a simple memory game coded with pure javascript, css and HTML. 
+This is a simple game designed to test a user's memory by challenging them to find card matches. 
+
+Memory Game Board Example <img src="http://picoolio.net/images/2018/05/29/memory-gameboard2c218ddea5ce40e1.png" alt="memory-gameboard2c218ddea5ce40e1.png" border="0" />)
 
 ## How to play:
 
 * Download or clone the repository onto your computer.
 * Extract the .zip file.
-* Open index.html in your browser. 
+* Run the index.html file directly from the directory or using command line.
 
 ## Rules:
 
@@ -21,5 +23,24 @@ This is a simple memory game coded with pure javascript, css and HTML.
  * You can restart the game at any point by clicking the restart button.
  * _May the force be with you!_ 
 
-## License
-KateCodes.com
+## How I built the Memory Game
+
+I manipulated the DOM with vanilla Javascript and ES6 variables, altered part of the HTML and styled the game with CSS. 
+
+* Created a deck of cards that shuffles when game is refreshed.
+* Created a counter to count the number of moves made by a player and a timer to track the duration of the game.
+* Added style to the cards and gameboard.
+* create a pop-up modal when player wins game.
+
+## Browser Compatibilities
+
+The application has been tested in Safari, Chrome, Firefox, and Edge
+
+
+## Dependencies:
+
+* Font Awesome
+
+## Acknowledgments
+
+* Udacity's starter code was used for UI design.
