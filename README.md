@@ -19,7 +19,7 @@ This is a simple memory game coded with pure javascript, css and HTML.
  * If your moves are greater than 12, but less than 24; you will earn 2 Stars.
  * Otherwise, you will join the darkside with your 1 Star.
  * You can restart the game at any point by clicking the restart button.
- * _May the force be with you!_ *
+ * _May the force be with you!_ 
 
 ## License
 KateCodes.com
