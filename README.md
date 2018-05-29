@@ -40,6 +40,7 @@ The application has been tested in Safari, Chrome, Firefox, and Edge
 ## Dependencies:
 
 * Font Awesome
+* ES6
 
 ## Acknowledgments
 
