@@ -5,6 +5,22 @@
  *   - add each card's HTML to the page
  */
 
+let cardList = ['anchor', 'bicycle', 'bolt', 'bomb', 'cube', 'diamond', 'leaf', 'paper-plane-o'];
+cardList = cardList.concat(cardList);
+
+//Variables
+const gameBoardElement = document.querySelector('.game-board');
+const moveCountElement = document.querySelector('.moves');
+const starCountElement = document.querySelector('.stars');
+const timeElapsedElement = document.querySelector('.time-elapsed');
+
+let moveCount = 0;
+let starCount = 3;
+let lastCardFlipped = null;
+let flipOpenCardsTimeout = null;
+let startTime = null;
+let timerInterval = null;
+
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
 
@@ -29,22 +45,6 @@ function shuffle(array) {
  *   6. Append the <i> (icon) to the <li> (card).
  *   7. Append the fully assembled card <li> to the visible deck/gameboard in the HTML.
  */
-
-//List of cards
-const cardList = ['anchor', 'anchor', 'bicycle', 'bicycle', 'bolt', 'bolt', 'bomb', 'bomb', 'cube', 'cube', 'diamond', 'diamond', 'leaf', 'leaf', 'paper-plane-o', 'paper-plane-o'];
-
-//Variables
-const gameBoardElement = document.querySelector('.game-board');
-const moveCountElement = document.querySelector('.moves');
-const starCountElement = document.querySelector('.stars');
-const timeElapsedElement = document.querySelector('.time-elapsed');
-
-let moveCount = 0;
-let starCount = 3;
-let lastCardFlipped = null;
-let flipOpenCardsTimeout = null;
-let startTime = null;
-let timerInterval = null;
 
 //Elapse time
 function displayTimeElapsed() {
