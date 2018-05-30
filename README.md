@@ -1,10 +1,10 @@
-# Udacity Memory Game - FEND #
+# Udacity Matching Game - FEND #
 
 ## Game Description
 
 This is a simple game designed to test a user's memory by challenging them to find card matches. 
 
-Memory Game Board Example <img src="http://picoolio.net/images/2018/05/29/memory-gameboard2c218ddea5ce40e1.png" alt="memory-gameboard2c218ddea5ce40e1.png" border="0" />)
+Matching Game Board Example <img src="http://picoolio.net/images/2018/05/29/memory-gameboard2c218ddea5ce40e1.png" alt="memory-gameboard2c218ddea5ce40e1.png" border="0" />)
 
 ## How to play:
 
@@ -14,7 +14,7 @@ Memory Game Board Example <img src="http://picoolio.net/images/2018/05/29/memory
 
 ## Rules:
 
-* The goal is to win the game in as few moves as possible.
+ * The goal is to win the game in as few moves as possible.
  * Match cards with identical pictures.
  * Moves are counted and timed as you play the game.
  * If you win the game in less than 12 moves; you will earn 3 Stars.
@@ -23,10 +23,9 @@ Memory Game Board Example <img src="http://picoolio.net/images/2018/05/29/memory
  * You can restart the game at any point by clicking the restart button.
  * _May the force be with you!_ 
 
-## How I built the Memory Game
+## Matching Game Development
 
-I manipulated the DOM with vanilla Javascript and ES6 variables, altered part of the HTML and styled the game with CSS. 
-
+* I Manipulated the DOM with vanilla Javascript and ES6 variables, altered part of the HTML, and styled the game with CSS. 
 * Created a deck of cards that shuffles when game is refreshed.
 * Created a counter to count the number of moves made by a player and a timer to track the duration of the game.
 * Added style to the cards and gameboard.
@@ -34,8 +33,7 @@ I manipulated the DOM with vanilla Javascript and ES6 variables, altered part of
 
 ## Browser Compatibilities
 
-The application has been tested in Safari, Chrome, Firefox, and Edge
-
+The application has been tested in Safari, Chrome, Firefox, and Edge.
 
 ## Dependencies:
 
