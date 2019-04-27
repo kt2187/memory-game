@@ -8,9 +8,7 @@ Matching Game Board Example <img src="http://picoolio.net/images/2018/05/29/memo
 
 ## How to play:
 
-* Download or clone the repository onto your computer.
-* Extract the .zip file.
-* Run the index.html file directly from the directory or using command line.
+* Click the link to test your memory. https://kt2187.github.io/memory-game/
 
 ## Rules:
 
